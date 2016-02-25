@@ -27,10 +27,10 @@ var bounceyTime = function() {
 	x += xDir;
 	y += yDir;
   window.requestAnimationFrame(animCode);
-    };
+    }
 
     animCode();
-};
+}
 
 var s = document.getElementById("start");
 s.addEventListener("click", bounceyTime);
