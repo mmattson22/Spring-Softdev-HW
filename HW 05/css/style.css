@@ -1,0 +1,29 @@
+body{
+     background-color:#FFFF99;
+     font-size: 20px;
+}
+
+.container{
+    width: 1220px;
+    margin-left: 55px;
+    padding: 5px;
+    border: 1px solid black;
+    background: white;
+}
+
+.barChart div{
+  font-size: 10px;
+  text-align: right;
+  padding: 4px;
+  margin: 2px;
+  color: white;
+}
+
+.button {
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+}

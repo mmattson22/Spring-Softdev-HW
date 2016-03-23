@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Primaries!</title>
+  </head>
+
+  <body>
+    <center>
+      <u><h1>Primaries!</h1></u>
+      <p>
+	Republican Primaries <br>
+	Total Delegate Count: 2,472<br>
+	Number of Delegates Allotted: 1,423<br>
+	Number of Delegates Not Yet Allotted: 1,049<br>
+      </p>
+      <button id = "switchParty" class = "button">Switch Party</button>
+      <br><br>
+    </center>
+
+    <div class = "container">
+      <center>
+	<br>Key: <br>
+	<key><font color="red">Red = Allotted</font></key><br>
+	<font color="grey">Grey = Not Yet Allotted</font>
+      </center>
+      <div class="barChart">
+      </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="index.js"></script>
+  </body>
+
+</html>
