@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<h1>{{word}}</h1>
+{% if error %}
+<h2> uh-oh your word doesn't have etymology. try a different word</h2>
+{% else %}
+etymology: 
+{{etymology}}
+{% endif %}

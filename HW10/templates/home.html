@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <!-----------------BEGIN HEAD, IMPORT ALL STYLING, SET TITLE-------------------->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        
+        
+        <!------------------- IMPORT BOOTSTRAP HERE --------------->
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+            <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+            <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+        
+        <!-------------------IMPORT STYLESHEET AND FLAT UI FRAMEWORK ------->
+        <link rel="stylesheet" type="text/css" href="/static/flat-ui.css">
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+    </head>
+    <!-------------------END HEAD---------------------------------->
+    
+    
+    
+    
+    
+    
+    <!-------------BEGIN BODY --------------->
+    <body>
+        <div class="formholder">
+            <!--Start Form-->
+	    <!--nellie deleted .html-->
+            <form method="POST">
+                <!-----------HEADER WRITING-------->
+                <center>
+                    <h2>Where's it from?</h2>
+                    <h7>Ever wondered where those big SAT Words came from? Enter one here and our word wizard can tell you!</h7>
+                </center>
+                
+                
+                <!---------------BEGIN INPUT GROUP--------------------->
+                    <div class="input-group input-group-hg input-group-rounded forminputs">
+                        <input name="word" id="wordinput" type="text" placeholder="Enter a word.." class="form-control" />
+                        <span class="input-group-btn">
+                            <button type="submit" class="btn">
+                                <!------------take out the anchor tag once connected to python------->
+                                <!--nellie deleted .html-->
+				<!---a href="/templates/answer/">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                </a>
+                                <!-------------------------but keep the span--------------------------------->
+                            </button>
+                        </span>
+                    </div>
+                <!---------------END INPUT GROUP--------------------->
+                
+            </form>
+            <!---End Form--->
+        </div>
+    </body>
+    <!-------------END BODY --------------->
+</html>
+
+
